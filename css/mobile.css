@@ -1,0 +1,15 @@
+/* MOBILE MEDIA QUERY */
+
+.wrapper {
+  height: var(--normal-h);
+  width: var(--normal-w);
+  margin: 0;
+}
+
+.menu {
+  width: 0%;
+}
+
+.chat {
+  width: 100%;
+}

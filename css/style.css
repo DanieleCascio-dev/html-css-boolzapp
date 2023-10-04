@@ -27,6 +27,18 @@
   background-color: lightgreen;
 }
 
+.flex {
+  display: flex;
+}
+
+.mb1 {
+  margin-bottom: 1rem;
+}
+
+.mb2 {
+  margin-bottom: 2rem;
+}
+
 /* BACKGROUND */
 
 .background {
@@ -40,4 +52,20 @@
     #dadbd3 20%,
     #dadbd3 100%
   );
+}
+
+/* MENU */
+
+.menu {
+  width: 30%;
+  height: 100%;
+  background-color: aquamarine;
+}
+
+/* CHAT */
+
+.chat {
+  width: 70%;
+  height: 100%;
+  background-color: darkcyan;
 }
