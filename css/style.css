@@ -1,4 +1,12 @@
 :root {
+  --green-bg: #009688;
+  --grey-bg: #dadbd3;
+
+  /* wrapper size */
+  --deskstop-h: calc(100vh - 4rem);
+  --deskstop-w: 80%;
+  --normal-h: 100vh;
+  --normal-w: 100%;
 }
 
 /* Reset */
@@ -9,8 +17,22 @@
   box-sizing: border-box;
 }
 
-/* body {
+/* COMMONS */
+
+.wrapper {
+  height: var(--deskstop-h);
+  width: var(--deskstop-w);
+  margin: 0 auto;
+
+  background-color: lightgreen;
+}
+
+/* BACKGROUND */
+
+.background {
+  width: 100%;
   height: 100vh;
+  padding: 2rem;
   background: linear-gradient(
     to bottom,
     #009688 0%,
@@ -19,4 +41,3 @@
     #dadbd3 100%
   );
 }
- */
