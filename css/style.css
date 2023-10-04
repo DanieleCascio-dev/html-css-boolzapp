@@ -1,9 +1,10 @@
 :root {
   --green-bg: #009688;
   --grey-bg: #dadbd3;
+  --notification: #8edafc;
 
   /* wrapper size */
-  --deskstop-h: calc(100vh - 4rem);
+  --deskstop-h: calc(100vh - 3rem);
   --deskstop-w: 80%;
   --normal-h: 100vh;
   --normal-w: 100%;
@@ -18,6 +19,19 @@
 }
 
 /* COMMONS */
+
+.background {
+  width: 100%;
+  height: 100vh;
+  padding: 1.5rem;
+  background: linear-gradient(
+    to bottom,
+    #009688 0%,
+    #009688 20%,
+    #dadbd3 20%,
+    #dadbd3 100%
+  );
+}
 
 .wrapper {
   height: var(--deskstop-h);
@@ -39,27 +53,35 @@
   margin-bottom: 2rem;
 }
 
-/* BACKGROUND */
-
-.background {
-  width: 100%;
-  height: 100vh;
-  padding: 2rem;
-  background: linear-gradient(
-    to bottom,
-    #009688 0%,
-    #009688 20%,
-    #dadbd3 20%,
-    #dadbd3 100%
-  );
-}
-
 /* MENU */
 
 .menu {
   width: 30%;
   height: 100%;
+  /* debug */
   background-color: aquamarine;
+}
+
+.header-menu {
+  height: 3rem;
+  /* debug */
+  background-color: lightsalmon;
+}
+
+.notification {
+  height: 3.5rem;
+  background-color: var(--notification);
+}
+
+.search {
+  height: 1.5rem;
+  /* debug */
+  background-color: lightgray;
+}
+
+.contacts {
+  background-color: lightskyblue;
+  height: calc(100% - 8rem);
 }
 
 /* CHAT */
