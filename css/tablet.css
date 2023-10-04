@@ -1,3 +1,6 @@
+/* 540px MEDIA QUERY */
+
+/* COMMON */
 .wrapper {
   height: var(--normal-h);
   width: var(--normal-w);

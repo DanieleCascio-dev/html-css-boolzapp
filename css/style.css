@@ -2,6 +2,8 @@
   --green-bg: #009688;
   --grey-bg: #dadbd3;
   --notification: #8edafc;
+  --lgrey-bg: #eaeaea;
+  --lgrey-gb-footer: #f3eeea;
 
   /* wrapper size */
   --deskstop-h: calc(100vh - 3rem);
@@ -60,12 +62,13 @@
   height: 100%;
   /* debug */
   background-color: aquamarine;
+  border: 1px dashed black;
 }
 
 .header-menu {
   height: 3rem;
   /* debug */
-  background-color: lightsalmon;
+  background-color: var(--lgrey-bg);
 }
 
 .notification {
@@ -90,4 +93,24 @@
   width: 70%;
   height: 100%;
   background-color: darkcyan;
+  /* debug */
+  border: 1px solid black;
+}
+
+.header-chat {
+  height: 3rem;
+  background-color: var(--lgrey-bg);
+}
+
+.main-chat {
+  height: calc(100% - 6rem);
+  background: url(../img/mine.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.footer-chat {
+  height: 3rem;
+  background-color: var(--lgrey-gb-footer);
 }
