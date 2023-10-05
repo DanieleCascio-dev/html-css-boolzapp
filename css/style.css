@@ -161,8 +161,8 @@ body {
 /* search */
 
 .search {
-  height: 1.8rem;
-  /* debug */
+  height: 2rem;
+  padding: 1rem;
   background-color: #fafafa;
   align-items: center;
   justify-content: flex-start;
@@ -215,6 +215,10 @@ body {
 
 .contact-info {
   padding: 0.5rem 0;
+}
+
+.contact-info p {
+  font-size: 0.8rem;
 }
 
 .contact .time {
