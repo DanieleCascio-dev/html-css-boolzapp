@@ -32,6 +32,21 @@
   height: calc(100% - 3rem);
 }
 
+.contact {
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0.5rem;
+}
+
+.contact-img {
+  padding: 0.5rem 0;
+  width: 80%;
+}
+
+.contact-info {
+  display: none;
+}
+
 /* Chat */
 .chat {
   width: 85%;
