@@ -61,6 +61,10 @@
   display: none;
 }
 
+.contact .time {
+  display: none;
+}
+
 /* Chat */
 .chat {
   width: calc(100% - var(--menu-size-tb));

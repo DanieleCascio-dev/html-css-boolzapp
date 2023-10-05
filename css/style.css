@@ -147,6 +147,7 @@ body {
   border-bottom: 1px solid var(--dgrey);
   align-items: center;
   justify-content: flex-start;
+  position: relative;
 }
 
 .contact-img {
@@ -172,6 +173,14 @@ body {
   color: var(--dgrey);
 }
 
+.contact .time {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 0.6rem;
+  color: var(--dgrey);
+  padding: 0.5rem;
+}
 /* CHAT */
 
 .chat {
