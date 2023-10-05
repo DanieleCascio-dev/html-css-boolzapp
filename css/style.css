@@ -121,14 +121,55 @@ body {
 .notification {
   height: 3.5rem;
   background-color: var(--notification);
+  gap: 0.5rem;
+  justify-content: center;
+  align-items: center;
 }
 
+.notification-icon {
+  color: var(--notification);
+  background-color: var(--white-bg);
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+}
+
+.notification-text h3 {
+  font-size: 0.8rem;
+  margin-bottom: 0.3rem;
+}
+
+.notification-text a {
+  color: #52788a;
+  font-size: 0.7rem;
+}
 /* search */
 
 .search {
-  height: 1.5rem;
+  height: 1.8rem;
   /* debug */
   background-color: lightgray;
+  align-items: center;
+  justify-content: flex-start;
+}
+.search-elements {
+  padding: 0.1rem;
+  background-color: var(--white-bg);
+  margin: 0 0.3rem;
+  width: 95%;
+  gap: 0.5rem;
+}
+
+.search i {
+  font-size: 0.9rem;
+  color: lightgray;
+}
+
+.search input {
+  width: 100%;
+  border: none;
 }
 
 /* Contacts */
