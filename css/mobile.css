@@ -21,3 +21,8 @@
 .header-chat-options {
   display: none;
 }
+
+.smile,
+.microphone {
+  display: none;
+}
