@@ -17,7 +17,7 @@
 /* Menu */
 
 .menu {
-  width: 15%;
+  width: var(--menu-size-tb);
 }
 
 .notification {
@@ -49,5 +49,5 @@
 
 /* Chat */
 .chat {
-  width: 85%;
+  width: calc(100% - var(--menu-size-tb));
 }
