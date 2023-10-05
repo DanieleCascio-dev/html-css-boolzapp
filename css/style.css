@@ -204,6 +204,10 @@ body {
   position: relative;
 }
 
+.contact:hover {
+  filter: brightness(95%);
+}
+
 .contact-img {
   width: 15%;
 }
