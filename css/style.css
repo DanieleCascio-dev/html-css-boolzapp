@@ -79,6 +79,8 @@ body {
   border: 1px dashed black;
 }
 
+/* Header menu */
+
 .header-menu {
   height: 3rem;
   padding: 0.5rem;
@@ -97,10 +99,24 @@ body {
   object-fit: cover;
 }
 
+.header-menu .menu-btn a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.header-menu .menu-btn {
+  list-style: none;
+  gap: 1rem;
+  color: var(--dgrey);
+}
+/* Notification */
+
 .notification {
   height: 3.5rem;
   background-color: var(--notification);
 }
+
+/* search */
 
 .search {
   height: 1.5rem;
@@ -108,6 +124,7 @@ body {
   background-color: lightgray;
 }
 
+/* Contacts */
 .contacts {
   background-color: lightskyblue;
   height: calc(100% - 8rem);
