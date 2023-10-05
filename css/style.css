@@ -6,6 +6,7 @@
   --dgrey: darkgray;
   --lgrey-gb-footer: #f3eeea;
   --white-bg: #fff;
+  --msg-send: #d5f9ba;
 
   /* wrapper size */
   --deskstop-h: calc(100vh - 3rem);
@@ -285,8 +286,44 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  padding: 1.5rem 2rem;
+  overflow-y: scroll;
 }
 
+.main-chat .row {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.send {
+  justify-content: flex-end;
+}
+
+.msg {
+  position: relative;
+  max-height: 15%;
+  width: 250px;
+  font-size: 0.9rem;
+  align-self: flex-end;
+  border-radius: 10px;
+  padding: 0.8rem 1rem 0.8rem 0.8rem;
+}
+
+.msg i {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0.8rem;
+  color: var(--dgrey);
+}
+
+.msg-send {
+  background-color: var(--msg-send);
+}
+
+.msg-recived {
+  background-color: var(--white-bg);
+}
 /* FOOTER */
 .footer-chat {
   height: var(--footer-size);
