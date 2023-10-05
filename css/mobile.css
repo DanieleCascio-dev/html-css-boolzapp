@@ -17,3 +17,7 @@
 .chat {
   width: 100%;
 }
+
+.header-chat-options {
+  display: none;
+}

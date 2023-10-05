@@ -33,6 +33,9 @@ img {
   max-width: 100%;
 }
 
+ul {
+  list-style: none;
+}
 /* COMMONS */
 
 body {
@@ -74,6 +77,16 @@ body {
 
 .mb2 {
   margin-bottom: 2rem;
+}
+
+.name {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.text {
+  font-size: 0.8rem;
+  color: var(--dgrey);
 }
 
 /* MENU */
@@ -174,8 +187,8 @@ body {
 
 /* Contacts */
 .contacts {
-  background-color: lightskyblue;
-  height: calc(100% - 8rem);
+  background-color: var(--white-bg);
+  flex-grow: 1;
   overflow-y: auto;
 }
 
@@ -204,16 +217,6 @@ body {
   padding: 0.5rem 0;
 }
 
-.contact-info .name {
-  font-size: 1rem;
-  font-weight: 600;
-}
-
-.contact-info .text {
-  font-size: 0.8rem;
-  color: var(--dgrey);
-}
-
 .contact .time {
   position: absolute;
   top: 0;
@@ -232,11 +235,50 @@ body {
   border: 1px solid black;
 }
 
+/* HEADER */
+
 .header-chat {
   height: var(--header-size-dekstop);
   background-color: var(--lgrey-bg);
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
 }
 
+.header-chat-content {
+  width: 60%;
+  gap: 1rem;
+  align-items: center;
+}
+
+.header-chat-img {
+  width: 12%;
+  min-width: 35px;
+}
+
+.header-chat-img img {
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.header-chat-text {
+  width: 70%;
+  min-width: 100px;
+}
+
+.header-chat-options {
+  width: 30%;
+  justify-content: flex-end;
+  gap: 1rem;
+  margin-right: 1rem;
+}
+
+.header-chat-options a {
+  text-decoration: none;
+  color: var(--dgrey);
+}
+
+/* MAIN */
 .main-chat {
   flex-grow: 1;
   background: url(../img/mine.jpg);
@@ -245,6 +287,7 @@ body {
   background-size: cover;
 }
 
+/* FOOTER */
 .footer-chat {
   height: var(--footer-size);
   background-color: var(--lgrey-gb-footer);

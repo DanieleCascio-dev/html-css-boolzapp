@@ -73,3 +73,8 @@
 .header-chat {
   padding: 2rem 0.5rem;
 }
+
+.header-chat-img {
+  width: 15%;
+  min-width: 49px;
+}
