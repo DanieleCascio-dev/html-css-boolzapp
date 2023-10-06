@@ -190,6 +190,10 @@ button {
   color: lightgray;
 }
 
+.search input:focus {
+  outline: none;
+}
+
 .search input {
   width: 100%;
   border: none;
